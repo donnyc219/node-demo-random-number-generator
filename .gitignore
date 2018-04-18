@@ -60,5 +60,5 @@ typings/
 #specific files that I don't want to push
 CreateJenkins.sh
 DestroyJenkins.sh
-
+deployment.yaml
 
