@@ -3,7 +3,7 @@ const app = express();
 const http = require('http').Server(app);
 
 app.get('/randomNumber', (req, res)=>{
-  res.send(`${Math.random()}`);
+  res.send(`${Math.random()*10}`);
 })
 
 http.listen(8000, ()=>{
