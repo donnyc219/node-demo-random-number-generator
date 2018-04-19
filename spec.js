@@ -13,7 +13,7 @@ describe('Testing Express endpoints...', () => {
 
   afterEach(function () {
     // server.close();   // TypeError: server.close is not a function
-    server.close
+    server.close 
   });
 
   it('1. /randomNumber endpoint responds with status 200', (done) => {
